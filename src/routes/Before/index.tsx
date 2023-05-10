@@ -5,7 +5,7 @@ export default function Before() {
     return (
         <main>
             <section>
-                <div className="container2">
+                <div className="container">
                     <BuscarPerfil />
                 </div>
             </section>
