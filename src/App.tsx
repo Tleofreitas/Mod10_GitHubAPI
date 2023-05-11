@@ -11,6 +11,7 @@ function App() {
         <Route path="/" element={<Home />} >
           <Route index element={<HomeBody />} />
           <Route path="before" element={<Before />} />
+          <Route path="before/:userLogin" element={<Before />} />
         </Route>
       </Routes>
     </BrowserRouter>

@@ -4,11 +4,12 @@
     --color-bg-primary: #1890FF;
     --color-bg-secondary: #E6F7FF;
     --color-bg-tertiary: #F5F5F5;
+    --color-bg-quaternary: white;
 
     --color-font-primary: black;
     --color-font-secondary: white;
     --color-font-tertiary: #1890FF;
-    --color-font-quaternary: #7E7E7E;
+    --color-font-quaternary: #737373;
     --color-font-five: #bfbfbf;
 }
 
@@ -33,12 +34,6 @@ a, a:hover {
 }
 
 .container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-}
-
-.container2 {
     width: 100%;
     max-width: 1251px;
     margin: 0 auto;
