@@ -53,6 +53,11 @@
     display: flex;
 }
 
+.searchResult h3 {
+    font-weight: 500;
+    font-size: 38px;
+}
+
 .avatar {
     height: 247px;
     width: 247px;
