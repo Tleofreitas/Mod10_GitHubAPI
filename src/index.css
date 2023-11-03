@@ -34,9 +34,8 @@ a, a:hover {
 }
 
 .container {
-    width: 100%;
     max-width: 1251px;
-    margin: 0 auto;
+    margin: 0 20px;
 }
 
 .dflex {
@@ -52,4 +51,9 @@ a, a:hover {
     font-weight: 700;
     font-size: 24px;
     color: var(--color-font-quaternary);
+}
+
+@media (max-width: 576px) {
+    .titleHome { font-size: 30px; }
+    .subtitleHome { font-size: 15px; }
 }

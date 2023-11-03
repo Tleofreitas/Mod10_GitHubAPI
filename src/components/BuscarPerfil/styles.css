@@ -2,7 +2,6 @@
     border-radius: 16px;
     background-color: var(--color-bg-secondary);
     padding: 54px 31px;
-    height: 270px;
     margin: 54px 0;
 }
 
@@ -95,4 +94,62 @@
     font-size: 16px;
     color: var(--color-font-quaternary);
     font-weight: 400;
+}
+
+@media (max-width: 576px) {
+    .searchSection{
+        padding: 39px 23.25px;
+        margin: 39px 0;
+    }
+    .searchSection h3 {
+        font-size: 28.5px;
+    }
+    .buttonSub { font-size: 14px; }
+    .searchResult {
+        padding: 32.25px 28.5px;
+        height: 518px;
+        margin: 40px 0;
+        flex-direction: column;
+        align-items: center;        
+    }
+    .avatar {
+        height: 185px;
+        width: 185px;
+    }
+    .details {
+        width: 351px;
+        margin: 15px 0;
+    }
+    .details h5 {
+        font-size: 14px;
+        align-items: center;
+    }
+    .details p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 410px) {
+    .searchSection h3 {
+        font-size: 20px;
+    }
+    .searchUser {
+        width: 233px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .details {
+        width: 260px;
+    }
+    .details h5 {
+        font-size: 14px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        border: none;
+    }
+    .details h4 {
+        display: flex;
+        justify-content: center;
+    }
 }

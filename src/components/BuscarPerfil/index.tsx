@@ -8,7 +8,7 @@ type FormData = {
 
 export default function BuscarPerfil() {
 
-    const [, setUser] = useState<string>();
+    const [ , setUser] = useState<string>();
 
     const [formData, setFormData] = useState<FormData>({
         user: '',
