@@ -11,6 +11,10 @@ Criar conforme design Figma abaixo:
 
 [Ver o layout no figma...](https://www.figma.com/file/igQqM14f9sP17jyo54Y8vL/DesafioGithubAPI)
 
+Exemplos de contas a serem pesquisadas:
+- Tleofreitas
+- devsuperior
+
 ---
 ## *Dúvidas? Contate-me*
 Me envie uma mensagem no [WhatsApp](https://api.whatsapp.com/send?phone=5511951221949)
