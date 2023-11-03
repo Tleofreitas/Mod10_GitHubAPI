@@ -1,26 +1,26 @@
 import { useState } from "react";
-import { Link, Outlet, useParams } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import "./styles.css";
 
 type FormData = {
-    userName: string;
+    user: string;
 }
 
 export default function BuscarPerfil() {
 
-    const [user, setUser] = useState<string>();
+    const [, setUser] = useState<string>();
 
     const [formData, setFormData] = useState<FormData>({
-        userName: '',
+        user: '',
     });
 
-    function handleUserNameChange(event: any) {
-        setFormData({ ...formData, userName: event?.target.value })
+    function handleuserChange(event: any) {
+        setFormData({ ...formData, user: event?.target.value })
     }
 
     function handleFormSubmit(event: any) {
         event.preventDefault();
-        setUser(formData.userName);
+        setUser(formData.user);
     }
 
     return (
@@ -31,13 +31,13 @@ export default function BuscarPerfil() {
                     <input className="searchUser" placeholder="Usuário GitHub"
                         type="text"
                         name="userName"
-                        onChange={handleUserNameChange}
-                        value={formData.userName}
+                        onChange={handleuserChange}
+                        value={formData.user}
                     />
                     <div className="dflex mt25">
                         <Link className="buttonSub" type="submit"
-                            to={`/before/${formData.userName}`}
-                            key={formData.userName}
+                            to={`/before/${formData.user}`}
+                            key={formData.user}
                         >
                             Encontrar
                         </Link>
